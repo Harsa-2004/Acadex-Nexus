@@ -1,0 +1,133 @@
+/* .navbar {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+}
+.navbar-links a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  color: #ff4081;
+}
+
+
+.signup-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+  background-color: #ff0055;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+} */
+
+.navbar {
+    position: absolute; /* Ensures navbar stays over the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.6); /* Slight transparency */
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Ensures spacing between elements */
+  }
+  
+  .navbar-links a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff4081;
+  }
+
+  
+  /* Fix for Sign Up button */
+  .signup-btn {
+    background-color: #ff4081;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .signup-btn:hover {
+    background-color: #ff0055;
+  }
+
+  .logo{
+    margin-left: 10px;
+  }
+  
+  /* Ensure the navbar does not cut off at the edges */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+
+
+
+
+
+
+  
